@@ -1,0 +1,26 @@
+# Kapwing
+
+> Kapwing is a browser-based, AI-powered video creation platform used by 30+ million creators and creative teams to generate, edit, caption, translate, and repurpose video from a single prompt. Its developer surface is the Kapwing Plugin API — an official npm package for building whitelisted plugins that add media to the Kapwing editor canvas.
+
+Kapwing is a company profile in the API Evangelist network. It is a media / video-editing SaaS (San Francisco, CA) with no public REST API; developer integration is via the client-side Plugin API.
+
+## Product
+- [Kapwing home](https://www.kapwing.com/): Create multimedia-rich videos from simple prompts
+- [Pricing](https://www.kapwing.com/pricing): Free, Pro, Business, and Enterprise plans (credit-based)
+- [About](https://www.kapwing.com/about): Company background
+- [Blog](https://www.kapwing.com/blog/): Product and creator content
+- [Help Center](https://www.kapwing.com/help/): Support and documentation
+
+## Developer
+- [Kapwing Plugin API (plugin-helpers)](https://github.com/kapwing/plugin-helpers): Official package for building plugins on Kapwing
+- [@kapwing/plugin-helpers on npm](https://www.npmjs.com/package/@kapwing/plugin-helpers): npm install @kapwing/plugin-helpers
+- [Kapwing on GitHub](https://github.com/kapwing): Company GitHub organization
+- [Contact / plugin whitelisting](https://www.kapwing.com/contact-us): Plugins must be whitelisted by Kapwing to run
+
+## Policies
+- [Terms of Service](https://www.kapwing.com/policies/terms-of-service)
+- [Privacy Policy](https://www.kapwing.com/policies/privacy)
+
+## Catalog artifacts
+- [packages/kapwing-packages.yml](https://raw.githubusercontent.com/api-evangelist/kapwing/refs/heads/main/packages/kapwing-packages.yml): First-party SDK / package index
+- [security/kapwing-domain-security.yml](https://raw.githubusercontent.com/api-evangelist/kapwing/refs/heads/main/security/kapwing-domain-security.yml): Probed TLS / DNS domain-security posture

@@ -1,0 +1,18 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.npmjs.com/package/@kapwing/plugin-helpers
+packages:
+- language: javascript
+  registry: npm
+  name: "@kapwing/plugin-helpers"
+  version: 0.0.18
+  url: https://www.npmjs.com/package/@kapwing/plugin-helpers
+  repository: https://github.com/kapwing/plugin-helpers
+  install: npm install @kapwing/plugin-helpers
+  license: ISC
+  official: true
+  description: >-
+    Official package for building plugins on Kapwing. Exposes initKapwing() to
+    initialize a plugin instance and a postMessage-based surface to add media to
+    the Kapwing editor canvas (video.addFromUrl, image.addFromUrl). Plugins must
+    be whitelisted by Kapwing to run.
