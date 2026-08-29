@@ -11,6 +11,18 @@ description: >-
   by CRV. It does not publish a public REST API; its developer surface is the
   official Kapwing Plugin API (the @kapwing/plugin-helpers npm package), which
   lets whitelisted plugins add media to the Kapwing editor canvas.
+deliveryModel:
+  model: unknown
+  open_source: unknown
+  commercial: true
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - pricing
+  - repository-unlicensed
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
