@@ -1,0 +1,55 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.kapwing.com/pricing
+sources:
+- https://www.kapwing.com/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+  managed_tier: Pro
+published: true
+note: Consumer/business SaaS video editing pricing; annual options $192/year (Pro) and $600/year (Business)
+  noted in FAQ. No API pricing.
+plan_count: 4
+currency: USD
+plans:
+- name: Free
+  price_text: $ 0
+  price: 0
+  currency: USD
+  period: month
+  unit: per member
+  included_quota: 10 credits, unlimited exports with watermark, export videos up to 4 minutes, 720p, 5
+    GB cloud storage
+- name: Pro
+  price_text: $ 16
+  price: 16
+  currency: USD
+  period: month
+  unit: Per member, per month, billed annually
+  included_quota: 1,000 credits / month, 200 GB cloud storage, 4K exports
+  overage: $24 billed monthly
+- name: Business
+  price_text: $ 50
+  price: 50
+  currency: USD
+  period: month
+  unit: Per member, per month, billed annually
+  included_quota: 4,000 credits / month, 800 GB cloud storage
+  overage: $64 billed monthly; Ability to purchase additional credits
+- name: Enterprise
+  price_text: Contact Sales
+  period: none
+  included_quota: Custom amount of credits
+rate_limit_statements:
+- File upload limit 2 GB 6 GB 6 GB 6 GB
+- Monthly video export limit 30 minutes Unlimited Unlimited Unlimited
+- Auto-subtitling Up to 10 minutes Up to 1,000 minutes per month Up to 4,000 minutes per month Custom
