@@ -53,3 +53,42 @@ rate_limit_statements:
 - File upload limit 2 GB 6 GB 6 GB 6 GB
 - Monthly video export limit 30 minutes Unlimited Unlimited Unlimited
 - Auto-subtitling Up to 10 minutes Up to 1,000 minutes per month Up to 4,000 minutes per month Custom
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - free
+  - hybrid
+  units: []
+  plans:
+  - name: Free
+    access: other
+    model: free
+    model_how: derived
+    units:
+    - other
+    periods:
+    - month
+  - name: Pro
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - other
+    periods:
+    - month
+  - name: Business
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - other
+    periods:
+    - month
+  - name: Enterprise
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
